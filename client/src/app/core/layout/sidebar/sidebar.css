@@ -1,0 +1,32 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100px;
+  height: 100vh;
+  background-color: rgb(59, 59, 59);
+}
+
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  list-style: none;
+}
+
+.sidebar a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+.sidebar a:hover {
+  background-color: rgb(80, 80, 80);
+}
