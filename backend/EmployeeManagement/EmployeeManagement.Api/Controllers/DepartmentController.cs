@@ -1,59 +1,59 @@
-﻿using EmployeeManagement.Application.DTOs;
-using EmployeeManagement.Application.UseCases;
-using EmployeeManagement.Application.UsesCases;
+﻿using EmployeeManagement.Application.DTOs.Departments;
+using EmployeeManagement.Application.DTOs.Tasks;
+using EmployeeManagement.Application.UsesCases.Departments;
+using EmployeeManagement.Application.UsesCases.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EmployeeManagement.Api.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class DepartmentController : ControllerBase
+public class DepartmentController: ControllerBase
 {
     private readonly CreateDepartmentUseCase _createDepartmentUseCase;
-    private readonly GetDepartmentUseCase _getDepartmentUseCase;
-    private readonly UpdateDepartmentUseCase _updateDepartmentUseCase;
     private readonly DeleteDepartmentUseCase _deleteDepartmentUseCase;
+    private readonly GetAllDepartmentsUseCase _getAllDepartmentsUseCase;
+    private readonly GetDepartmentUseCase _getDepartmetnUseCase;
+    // misiing updateddepartmentusecase
 
-    public DepartmentController(
-        CreateDepartmentUseCase createDepartmentUseCase,
-        GetDepartmentUseCase getDepartmentUseCase,
-        UpdateDepartmentUseCase updateDepartmentUseCase,
-        DeleteDepartmentUseCase deleteDepartmentUseCase
-        )
+    public DepartmentController(CreateDepartmentUseCase createDepartmentUseCase, DeleteDepartmentUseCase deleteDepartmentUseCase, GetAllDepartmentsUseCase getAllDepartmentsUseCase, GetDepartmentUseCase getDepartmentUseCase)
     {
         _createDepartmentUseCase = createDepartmentUseCase;
-        _getDepartmentUseCase = getDepartmentUseCase;
-        _updateDepartmentUseCase = updateDepartmentUseCase;
         _deleteDepartmentUseCase = deleteDepartmentUseCase;
+        _getAllDepartmentsUseCase = getAllDepartmentsUseCase;
+        _getDepartmetnUseCase = getDepartmentUseCase;
     }
 
     [HttpPost]
-    public async Task<ActionResult<DepartmentDto>> Create([FromBody] CreateDepartmentDto dto)
+    public async Task<ActionResult<DepartmentResponseDto>> Create([FromBody] CreateDepartmentDto dto)
     {
         var result = await _createDepartmentUseCase.ExecuteAsync(dto);
         return Ok(result);
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<EmployeeDto>> Get(int id)
+    public async Task<ActionResult<DepartmentResponseDto>> Get(int id)
     {
-        var result = await _getDepartmentUseCase.ExecuteAsync(id);
-        if(result == null) return NotFound();
+        var result = await _getDepartmetnUseCase.ExecuteAsync(id);
+        if (result == null) return NotFound();
         return Ok(result);
     }
 
-    [HttpPut("{id}")]
-    public async Task<ActionResult<DepartmentDto>> Update(int id, [FromBody] UpdateDepartmentDto dto)
+    [HttpGet]
+    public async Task<ActionResult<DepartmentResponseDto>> GetAllDepartments()
     {
-        var result = await _updateDepartmentUseCase.ExecuteAsync(id, dto);
+        var result = await _getAllDepartmentsUseCase.ExecuteAsync();
+        if (result == null) return NotFound();
         return Ok(result);
     }
+
 
     [HttpDelete("{id}")]
-    public async Task<ActionResult<DepartmentDto>> Delete(int id)
+    public async Task<ActionResult<DepartmentResponseDto>> Delete(int id)
     {
         var result = await _deleteDepartmentUseCase.ExecuteAsync(id);
+        if (result == null) return NotFound();
+
         return Ok(result);
     }
-
 }

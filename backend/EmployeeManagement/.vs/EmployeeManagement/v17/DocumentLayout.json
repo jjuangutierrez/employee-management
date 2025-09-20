@@ -3,52 +3,168 @@
   "WorkspaceRootPath": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.infrastructure\\migrations\\20250915040639_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|solutionrelative:employeemanagement.infrastructure\\migrations\\20250915040639_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\dtos\\users\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\dtos\\users\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250920043218_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagement.Infrastructure\\Migrations\\20250920043218_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|solutionrelative:employeemanagement.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250915035551_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagement.Infrastructure\\Migrations\\20250915035551_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\dtos\\announcement\\updateannouncementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\dtos\\announcement\\updateannouncementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\createemployeeusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\createemployeeusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\mappers\\announcementprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\mappers\\announcementprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\updateemployeeusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\updateemployeeusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{687A9782-A8C3-47A0-90DB-A15024E5039E}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.domain\\entities\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687A9782-A8C3-47A0-90DB-A15024E5039E}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|solutionrelative:employeemanagement.domain\\entities\\announcement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\getemployeeusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\getemployeeusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\dtos\\announcement\\createannouncementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\dtos\\announcement\\createannouncementdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\getallemployeesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\getallemployeesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C2912C5F-F648-4017-BFFB-C211D7EE8853}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.api\\controllers\\announcementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2912C5F-F648-4017-BFFB-C211D7EE8853}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|solutionrelative:employeemanagement.api\\controllers\\announcementcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\deleteemployeeusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\deleteemployeeusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|solutionrelative:employeemanagement.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\createdepartmentusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\createdepartmentusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250920042516_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagement.Infrastructure\\Migrations\\20250920042516_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\dtos\\updateemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\dtos\\updateemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\announcement\\updateannouncementusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\announcement\\updateannouncementusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\announcement\\getannouncementusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\announcement\\getannouncementusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\dtos\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\dtos\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\announcement\\getallannouncementsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\announcement\\getallannouncementsusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\announcement\\deleteannouncementusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\announcement\\deleteannouncementusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\announcement\\createannouncementusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\announcement\\createannouncementusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\dtos\\users\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\dtos\\users\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\dtos\\tasks\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\dtos\\tasks\\createtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\mappers\\taskprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\mappers\\taskprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\mappers\\userprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\mappers\\userprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\mappers\\departmentprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\mappers\\departmentprofiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.infrastructure\\data\\repositories\\announcementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|solutionrelative:employeemanagement.infrastructure\\data\\repositories\\announcementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\dtos\\announcement\\announcementresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\dtos\\announcement\\announcementresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250920040930_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagement.Infrastructure\\Migrations\\20250920040930_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\services\\announcementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\services\\announcementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\dtos\\tasks\\taskresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\dtos\\tasks\\taskresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\dtos\\tasks\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\dtos\\tasks\\updatetaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687A9782-A8C3-47A0-90DB-A15024E5039E}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.domain\\entities\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687A9782-A8C3-47A0-90DB-A15024E5039E}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|solutionrelative:employeemanagement.domain\\entities\\taskentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687A9782-A8C3-47A0-90DB-A15024E5039E}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687A9782-A8C3-47A0-90DB-A15024E5039E}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|solutionrelative:employeemanagement.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\departments\\createdepartmentusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\departments\\createdepartmentusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250920024949_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EmployeeManagement.Infrastructure\\Migrations\\20250920024949_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687A9782-A8C3-47A0-90DB-A15024E5039E}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.domain\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687A9782-A8C3-47A0-90DB-A15024E5039E}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|solutionrelative:employeemanagement.domain\\interfaces\\itaskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2912C5F-F648-4017-BFFB-C211D7EE8853}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2912C5F-F648-4017-BFFB-C211D7EE8853}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|solutionrelative:employeemanagement.api\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2912C5F-F648-4017-BFFB-C211D7EE8853}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2912C5F-F648-4017-BFFB-C211D7EE8853}|EmployeeManagement.Api\\EmployeeManagement.Api.csproj|solutionrelative:employeemanagement.api\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687A9782-A8C3-47A0-90DB-A15024E5039E}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.domain\\interfaces\\iannouncementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687A9782-A8C3-47A0-90DB-A15024E5039E}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|solutionrelative:employeemanagement.domain\\interfaces\\iannouncementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.infrastructure\\data\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|solutionrelative:employeemanagement.infrastructure\\data\\repositories\\taskrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.infrastructure\\data\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|solutionrelative:employeemanagement.infrastructure\\data\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\users\\updateuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\users\\updateuserusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\usescases\\tasks\\createtaskusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\usescases\\tasks\\createtaskusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{687A9782-A8C3-47A0-90DB-A15024E5039E}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.domain\\interfaces\\iannouncementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{687A9782-A8C3-47A0-90DB-A15024E5039E}|EmployeeManagement.Domain\\EmployeeManagement.Domain.csproj|solutionrelative:employeemanagement.domain\\interfaces\\iannouncementservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.application\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEB9C309-82DC-44B7-AD72-B531BC7EDA85}|EmployeeManagement.Application\\EmployeeManagement.Application.csproj|solutionrelative:employeemanagement.application\\services\\departmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|c:\\users\\migue\\onedrive\\documents\\apps dev\\employee-management\\backend\\employeemanagement\\employeemanagement.infrastructure\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDC51B9-5426-4918-8ED0-1FAFC438CAEA}|EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj|solutionrelative:employeemanagement.infrastructure\\data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,147 +179,535 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250915040639_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250915040639_InitialCreate.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Migrations\\20250915040639_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250915040639_InitialCreate.cs",
-              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Migrations\\20250915040639_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Users\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\DTOs\\Users\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Users\\UpdateUserDto.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\DTOs\\Users\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T04:06:39.33Z",
+              "WhenOpened": "2025-09-20T04:22:36.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "20250920043218_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250920043218_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Migrations\\20250920043218_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250920043218_InitialCreate.cs",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Migrations\\20250920043218_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T04:32:18.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwv1IAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T02:28:08.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeToolTip": "EmployeeManagement.Infrastructure\\Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswCMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T04:04:05.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20250915035551_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250915035551_InitialCreate.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Migrations\\20250915035551_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250915035551_InitialCreate.cs",
-              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Migrations\\20250915035551_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T03:55:52.059Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UpdateEmployeeUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\UpdateEmployeeUseCase.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\UpdateEmployeeUseCase.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\UpdateEmployeeUseCase.cs",
-              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\UpdateEmployeeUseCase.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwDcAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T03:51:12.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetEmployeeUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\GetEmployeeUseCase.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\GetEmployeeUseCase.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\GetEmployeeUseCase.cs",
-              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\GetEmployeeUseCase.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T03:51:07.916Z"
+              "WhenOpened": "2025-09-20T03:05:33.796Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "DeleteEmployeeUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\DeleteEmployeeUseCase.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\DeleteEmployeeUseCase.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\DeleteEmployeeUseCase.cs",
-              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\DeleteEmployeeUseCase.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwC4AAAABAAAAAAAAAA==",
+              "Title": "AnnouncementController.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Api\\Controllers\\AnnouncementController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Api\\Controllers\\AnnouncementController.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Api\\Controllers\\AnnouncementController.cs",
+              "RelativeToolTip": "EmployeeManagement.Api\\Controllers\\AnnouncementController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswDAAAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T03:50:57.624Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateEmployeeUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\CreateEmployeeUseCase.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\CreateEmployeeUseCase.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\CreateEmployeeUseCase.cs",
-              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\CreateEmployeeUseCase.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAUwCgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T03:50:51.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CreateDepartmentUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\CreateDepartmentUseCase.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\CreateDepartmentUseCase.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\CreateDepartmentUseCase.cs",
-              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\CreateDepartmentUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T03:50:50.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UpdateEmployeeDto.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\UpdateEmployeeDto.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement.Application\\DTOs\\UpdateEmployeeDto.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\UpdateEmployeeDto.cs",
-              "RelativeToolTip": "EmployeeManagement.Application\\DTOs\\UpdateEmployeeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T03:49:26.695Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "CreateEmployeeDto.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\CreateEmployeeDto.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement.Application\\DTOs\\CreateEmployeeDto.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\CreateEmployeeDto.cs",
-              "RelativeToolTip": "EmployeeManagement.Application\\DTOs\\CreateEmployeeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T03:43:22.485Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EmployeeDto.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\EmployeeDto.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement.Application\\DTOs\\EmployeeDto.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\EmployeeDto.cs",
-              "RelativeToolTip": "EmployeeManagement.Application\\DTOs\\EmployeeDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T03:42:16.512Z"
+              "WhenOpened": "2025-09-20T02:30:54.75Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "GetAllEmployeesUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\GetAllEmployeesUseCase.cs",
-              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\GetAllEmployeesUseCase.cs",
-              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\GetAllEmployeesUseCase.cs",
-              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\GetAllEmployeesUseCase.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBUAAAAdAAAAAAAAAA==",
+              "Title": "CreateAnnouncementDto.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Announcement\\CreateAnnouncementDto.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\DTOs\\Announcement\\CreateAnnouncementDto.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Announcement\\CreateAnnouncementDto.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\DTOs\\Announcement\\CreateAnnouncementDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T03:41:56.095Z"
+              "WhenOpened": "2025-09-19T20:40:19.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AnnouncementProfiler.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\Mappers\\AnnouncementProfiler.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\Mappers\\AnnouncementProfiler.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\Mappers\\AnnouncementProfiler.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\Mappers\\AnnouncementProfiler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:31:47.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Announcement.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Domain\\Entities\\Announcement.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Domain\\Entities\\Announcement.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Domain\\Entities\\Announcement.cs",
+              "RelativeToolTip": "EmployeeManagement.Domain\\Entities\\Announcement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:41:12.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateAnnouncementDto.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Announcement\\UpdateAnnouncementDto.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\DTOs\\Announcement\\UpdateAnnouncementDto.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Announcement\\UpdateAnnouncementDto.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\DTOs\\Announcement\\UpdateAnnouncementDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:40:32.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250920042516_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250920042516_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Migrations\\20250920042516_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250920042516_InitialCreate.cs",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Migrations\\20250920042516_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T04:25:17.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetAnnouncementUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Announcement\\GetAnnouncementUseCase.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\Announcement\\GetAnnouncementUseCase.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Announcement\\GetAnnouncementUseCase.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\Announcement\\GetAnnouncementUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T02:27:14.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "GetAllAnnouncementsUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Announcement\\GetAllAnnouncementsUseCase.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\Announcement\\GetAllAnnouncementsUseCase.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Announcement\\GetAllAnnouncementsUseCase.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\Announcement\\GetAllAnnouncementsUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T02:26:54.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DeleteAnnouncementUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Announcement\\DeleteAnnouncementUseCase.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\Announcement\\DeleteAnnouncementUseCase.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Announcement\\DeleteAnnouncementUseCase.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\Announcement\\DeleteAnnouncementUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T02:27:59.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CreateTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Tasks\\CreateTaskDto.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\DTOs\\Tasks\\CreateTaskDto.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Tasks\\CreateTaskDto.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\DTOs\\Tasks\\CreateTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:41:36.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateAnnouncementUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Announcement\\CreateAnnouncementUseCase.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\Announcement\\CreateAnnouncementUseCase.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Announcement\\CreateAnnouncementUseCase.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\Announcement\\CreateAnnouncementUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T02:26:28.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Users\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\DTOs\\Users\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Users\\CreateUserDto.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\DTOs\\Users\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T04:22:34.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateAnnouncementUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Announcement\\UpdateAnnouncementUseCase.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\Announcement\\UpdateAnnouncementUseCase.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Announcement\\UpdateAnnouncementUseCase.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\Announcement\\UpdateAnnouncementUseCase.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwB0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T02:27:34.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TaskProfiler.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\Mappers\\TaskProfiler.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\Mappers\\TaskProfiler.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\Mappers\\TaskProfiler.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\Mappers\\TaskProfiler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T04:21:42.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserProfiler.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\Mappers\\UserProfiler.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\Mappers\\UserProfiler.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\Mappers\\UserProfiler.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\Mappers\\UserProfiler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T04:21:43.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DepartmentProfiler.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\Mappers\\DepartmentProfiler.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\Mappers\\DepartmentProfiler.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\Mappers\\DepartmentProfiler.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\Mappers\\DepartmentProfiler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T04:21:40.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AnnouncementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\Repositories\\AnnouncementRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Data\\Repositories\\AnnouncementRepository.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\Repositories\\AnnouncementRepository.cs",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Data\\Repositories\\AnnouncementRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:52:46.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AnnouncementResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Announcement\\AnnouncementResponseDto.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\DTOs\\Announcement\\AnnouncementResponseDto.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Announcement\\AnnouncementResponseDto.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\DTOs\\Announcement\\AnnouncementResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:39:39.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "20250920040930_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250920040930_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Migrations\\20250920040930_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250920040930_InitialCreate.cs",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Migrations\\20250920040930_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T04:09:30.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AnnouncementService.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\Services\\AnnouncementService.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\Services\\AnnouncementService.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\Services\\AnnouncementService.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\Services\\AnnouncementService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwCwAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:24:35.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateDepartmentUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Departments\\CreateDepartmentUseCase.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\Departments\\CreateDepartmentUseCase.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Departments\\CreateDepartmentUseCase.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\Departments\\CreateDepartmentUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T02:52:05.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "EmployeeManagement.Domain\\Entities\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T03:06:24.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TaskEntity.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Domain\\Entities\\TaskEntity.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Domain\\Entities\\TaskEntity.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Domain\\Entities\\TaskEntity.cs",
+              "RelativeToolTip": "EmployeeManagement.Domain\\Entities\\TaskEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T03:06:23.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UpdateTaskDto.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Tasks\\UpdateTaskDto.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\DTOs\\Tasks\\UpdateTaskDto.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Tasks\\UpdateTaskDto.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\DTOs\\Tasks\\UpdateTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T03:13:30.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "TaskResponseDto.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Tasks\\TaskResponseDto.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\DTOs\\Tasks\\TaskResponseDto.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\DTOs\\Tasks\\TaskResponseDto.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\DTOs\\Tasks\\TaskResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T03:13:45.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ITaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Domain\\Interfaces\\ITaskRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Domain\\Interfaces\\ITaskRepository.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Domain\\Interfaces\\ITaskRepository.cs",
+              "RelativeToolTip": "EmployeeManagement.Domain\\Interfaces\\ITaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:51:40.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250920024949_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250920024949_InitialCreate.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Migrations\\20250920024949_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Migrations\\20250920024949_InitialCreate.cs",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Migrations\\20250920024949_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T02:49:49.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Api\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Api\\Controllers\\DepartmentController.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Api\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "EmployeeManagement.Api\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T02:31:47.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Api\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Api\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Api\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "EmployeeManagement.Api\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T02:33:04.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DepartmentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\Repositories\\DepartmentRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Data\\Repositories\\DepartmentRepository.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\Repositories\\DepartmentRepository.cs",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Data\\Repositories\\DepartmentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T21:06:28.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "TaskRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\Repositories\\TaskRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Data\\Repositories\\TaskRepository.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\Repositories\\TaskRepository.cs",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Data\\Repositories\\TaskRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:53:11.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IAnnouncementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Domain\\Interfaces\\IAnnouncementRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Domain\\Interfaces\\IAnnouncementRepository.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Domain\\Interfaces\\IAnnouncementRepository.cs",
+              "RelativeToolTip": "EmployeeManagement.Domain\\Interfaces\\IAnnouncementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T20:49:21.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UpdateUserUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Users\\UpdateUserUseCase.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\Users\\UpdateUserUseCase.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Users\\UpdateUserUseCase.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\Users\\UpdateUserUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:32:10.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CreateTaskUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Tasks\\CreateTaskUseCase.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\UsesCases\\Tasks\\CreateTaskUseCase.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\UsesCases\\Tasks\\CreateTaskUseCase.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\UsesCases\\Tasks\\CreateTaskUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:32:08.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IAnnouncementService.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Domain\\Interfaces\\IAnnouncementService.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Domain\\Interfaces\\IAnnouncementService.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Domain\\Interfaces\\IAnnouncementService.cs",
+              "RelativeToolTip": "EmployeeManagement.Domain\\Interfaces\\IAnnouncementService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:18:01.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "DepartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\Services\\DepartmentService.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Application\\Services\\DepartmentService.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Application\\Services\\DepartmentService.cs",
+              "RelativeToolTip": "EmployeeManagement.Application\\Services\\DepartmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T22:24:36.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "EmployeeManagement.Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Migue\\OneDrive\\Documents\\Apps dev\\employee-management\\backend\\EmployeeManagement\\EmployeeManagement.Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "EmployeeManagement.Infrastructure\\Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T21:08:12.42Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -2,11 +2,13 @@
 
 namespace EmployeeManagement.Domain.Interfaces;
 
-public interface IDepartmentRepository : IDisposable
+public interface IDepartmentRepository
 {
     Task<IEnumerable<Department>> GetAllDepartmentsAsync();
-    Task<Department?> GetDepartmentAsync(int id);
-    Task InsertDepartmentAsync(Department department);
-    Task UpdateDepartmentAsync(Department department);
+
+    Task<Department> GetDepartmentAsync(int id);
+
+    Task<Department> InsertDepartmentAsync(Department department);
     Task DeleteDepartmentAsync(int departmentId);
+    Task UpdateDepartmentAsync(Department department);
 }
