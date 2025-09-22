@@ -1,4 +1,5 @@
-﻿using EmployeeManagement.Domain.Entities;
+﻿using EmployeeManagement.Application.Interfaces;
+using EmployeeManagement.Domain.Entities;
 using EmployeeManagement.Domain.Interfaces;
 using System.Threading.Tasks;
 

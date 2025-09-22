@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement.Infrastructure.Data.Repositories;
 
-public class DepartmentRepository : IDepartmentRepository, IDisposable
+public class DepartmentRepository : IDepartmentRepository
 {
     private readonly AppDbContext _context;
 
@@ -58,22 +58,5 @@ public class DepartmentRepository : IDepartmentRepository, IDisposable
     {
         _context.Departments.Update(department);
         await _context.SaveChangesAsync();
-    }
-
-    private bool _disposed = false;
-
-    protected virtual void Dispose(bool disposing)
-    {
-        if (!_disposed)
-        {
-            if (disposing) _context.Dispose();
-        }
-        _disposed = true;
-    }
-
-    public void Dispose()
-    {
-        Dispose(true);
-        GC.SuppressFinalize(this);
     }
 }

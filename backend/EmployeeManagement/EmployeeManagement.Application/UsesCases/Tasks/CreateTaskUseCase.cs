@@ -1,29 +1,50 @@
 ﻿using AutoMapper;
 using EmployeeManagement.Application.DTOs.Tasks;
+using EmployeeManagement.Application.Interfaces;
 using EmployeeManagement.Domain.Entities;
-using EmployeeManagement.Domain.Interfaces;
 
 namespace EmployeeManagement.Application.UsesCases.Tasks;
 
 public class CreateTaskUseCase
 {
     private readonly ITaskService _taskService;
-    private readonly IMapper _mapper;
 
-    public CreateTaskUseCase(ITaskService taskService, IMapper mapper)
+    public CreateTaskUseCase(ITaskService taskService)
     {
-        _taskService = taskService;
-        _mapper = mapper;
+        _taskService = taskService ?? throw new ArgumentNullException(nameof(taskService));
     }
 
-    public async Task<TaskResponseDto> ExecuteAsync(int userId, CreateTaskDto task)
+    public async Task<TaskResponseDto> ExecuteAsync(int userId, CreateTaskDto createTaskDto)
     {
-        var taskEntity = _mapper.Map<TaskEntity>(task);
-        taskEntity.UserId = userId;
+        if (userId <= 0)
+            throw new ArgumentException("User ID must be greater than zero", nameof(userId));
 
-        var createTask = await _taskService.InsertTaskAsync(userId, taskEntity);
+        if (createTaskDto == null)
+            throw new ArgumentNullException(nameof(createTaskDto));
 
-        return _mapper.Map<TaskResponseDto>(createTask);
+        var taskEntity = new TaskEntity
+        {
+            Name = createTaskDto.Name?.Trim() ?? string.Empty,
+            Description = createTaskDto.Description?.Trim() ?? string.Empty,
+            Status = createTaskDto.Status,
+            UserId = userId
+        };
 
+        var createdTask = await _taskService.InsertTaskAsync(userId, taskEntity);
+
+        return new TaskResponseDto
+        {
+            Id = createdTask.Id,
+            Name = createdTask.Name,
+            Description = createdTask.Description,
+            Status = createdTask.Status,
+            CreateAt = createdTask.CreateAt,
+            UpdateAt = createdTask.UpdateAt,
+            UserId = createdTask.UserId,
+            UserName = createdTask.User != null
+                ? $"{createdTask.User.FirstName} {createdTask.User.LastName}".Trim()
+                : string.Empty
+        };
     }
 }
+

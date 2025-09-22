@@ -13,10 +13,9 @@ public class WorkInfo
     public State? State { get; set; }
     public long? Phone { get; set; }
     public long? AlternatePhone { get; set; }
-    public long Salary { get; set; }
-    public string Position { get; set; }
-    public DateTime CreateAt { get; set; }
-    public DateTime UpdateAt { get; set; }
+
+    public DateTime CreatedAt { get; set; }
+    public DateTime UpdatedAt { get; set; }
 
     public User User { get; set; }
 }

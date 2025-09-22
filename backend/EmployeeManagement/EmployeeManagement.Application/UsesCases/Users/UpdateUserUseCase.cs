@@ -1,29 +1,29 @@
-﻿using AutoMapper;
-using EmployeeManagement.Application.DTOs.UserWithEmployee;
+﻿using EmployeeManagement.Application.DTOs.UserWithEmployee;
 using EmployeeManagement.Application.Interfaces;
-using EmployeeManagement.Domain.Entities;
-using EmployeeManagement.Domain.Interfaces;
 
-namespace EmployeeManagement.Application.UsesCases.Users;
 public class UpdateUserUseCase
 {
     private readonly IUserService _userService;
     private readonly IPasswordHasher _hasher;
-    private readonly IMapper _mapper;
 
-    public UpdateUserUseCase(IUserService userService, IPasswordHasher hasher, IMapper mapper)
+    public UpdateUserUseCase(IUserService userService, IPasswordHasher hasher)
     {
         _userService = userService;
         _hasher = hasher;
-        _mapper = mapper;
     }
 
-    public async Task<UserResponseDto?> ExecuteAsync(int id, UpdateUserDto dto)
+    public async Task<ResponseUserDto?> ExecuteAsync(int id, UpdateUserDto dto)
     {
-        var existingUser = await _userService.GetUserAsync(id);
+        var existingUser = await _userService.GetUserByIdAsync(id);
         if (existingUser == null) return null;
 
-        _mapper.Map(dto, existingUser);
+        existingUser.FirstName = dto.FirstName ?? existingUser.FirstName;
+        existingUser.LastName = dto.LastName ?? existingUser.LastName;
+        existingUser.Email = dto.Email ?? existingUser.Email;
+        existingUser.Role = dto.Role ?? existingUser.Role;
+        existingUser.Salary = dto.Salary ?? existingUser.Salary;
+        existingUser.Position = dto.Position ?? existingUser.Position;
+        existingUser.UpdatedAt = DateTime.UtcNow;
 
         if (!string.IsNullOrWhiteSpace(dto.Password))
         {
@@ -32,12 +32,25 @@ public class UpdateUserUseCase
 
         if (dto.WorkInfo != null && existingUser.WorkInfo != null)
         {
-            _mapper.Map(dto.WorkInfo, existingUser.WorkInfo);
+            existingUser.WorkInfo.HireDate = dto.WorkInfo.HireDate ?? existingUser.WorkInfo.HireDate;
+            existingUser.WorkInfo.State = dto.WorkInfo.State ?? existingUser.WorkInfo.State;
+            existingUser.WorkInfo.UpdatedAt = DateTime.UtcNow;
         }
 
         var updatedUser = await _userService.UpdateUserAsync(existingUser, existingUser.WorkInfo);
 
-        return _mapper.Map<UserResponseDto>(updatedUser);
+        return new ResponseUserDto
+        {
+            Id = updatedUser.Id,
+            FirstName = updatedUser.FirstName,
+            LastName = updatedUser.LastName,
+            Email = updatedUser.Email,
+            Role = updatedUser.Role,
+            Salary = updatedUser.Salary,
+            Position = updatedUser.Position,
+            DepartmentId = updatedUser.DepartmentId,
+            CreatedAt = updatedUser.CreatedAt,
+            UpdatedAt = updatedUser.UpdatedAt
+        };
     }
-
 }

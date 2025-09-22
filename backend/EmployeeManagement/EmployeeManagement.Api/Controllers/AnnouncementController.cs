@@ -18,65 +18,107 @@ public class AnnouncementsController : ControllerBase
         CreateAnnouncementUseCase createUseCase,
         GetAllAnnouncementsUseCase getAllUseCase,
         UpdateAnnouncementUseCase updateUseCase,
-        DeleteAnnouncementUseCase deleteUseCase
-        ,
+        DeleteAnnouncementUseCase deleteUseCase,
         GetAnnouncementUseCase getUseCase)
     {
-        _createUseCase = createUseCase;
-        _getAllUseCase = getAllUseCase;
-        _updateUseCase = updateUseCase;
-        _deleteUseCase = deleteUseCase;
-        _getUseCase = getUseCase;
+        _createUseCase = createUseCase ?? throw new ArgumentNullException(nameof(createUseCase));
+        _getAllUseCase = getAllUseCase ?? throw new ArgumentNullException(nameof(getAllUseCase));
+        _updateUseCase = updateUseCase ?? throw new ArgumentNullException(nameof(updateUseCase));
+        _deleteUseCase = deleteUseCase ?? throw new ArgumentNullException(nameof(deleteUseCase));
+        _getUseCase = getUseCase ?? throw new ArgumentNullException(nameof(getUseCase));
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<AnnouncementResponseDto>>> GetAll()
+    [ProducesResponseType(typeof(IEnumerable<AnnouncementResponseDto>), StatusCodes.Status200OK)]
+    public async Task<ActionResult<IEnumerable<AnnouncementResponseDto>>> GetAllAnnouncements()
     {
-        var result = await _getAllUseCase.ExecuteAsync();
-        return Ok(result);
+        try
+        {
+            var result = await _getAllUseCase.ExecuteAsync();
+            return Ok(result);
+        }
+        catch (Exception)
+        {
+            return StatusCode(StatusCodes.Status500InternalServerError, "An error occurred while retrieving announcements");
+        }
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<AnnouncementResponseDto>> Get(int id)
+    [ProducesResponseType(typeof(AnnouncementResponseDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<ActionResult<AnnouncementResponseDto>> GetAnnouncement(int id)
     {
-        var result = await _getUseCase.ExecuteAsync(id);
-        if (result == null) return NotFound();
-        return Ok(result);
+        try
+        {
+            var result = await _getUseCase.ExecuteAsync(id);
+            return Ok(result);
+        }
+        catch (KeyNotFoundException)
+        {
+            return NotFound($"Announcement with ID {id} not found");
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
-
 
     [HttpPost]
-    public async Task<ActionResult<AnnouncementResponseDto>> Create([FromBody] CreateAnnouncementDto dto)
-    {
-        var result = await _createUseCase.ExecuteAsync(dto);
-        return Ok(result);
-    }
-
-    [HttpPut("{id:int}")]
-    public async Task<IActionResult> Update(int id, [FromBody] UpdateAnnouncementDto dto)
+    [ProducesResponseType(typeof(AnnouncementResponseDto), StatusCodes.Status201Created)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<ActionResult<AnnouncementResponseDto>> CreateAnnouncement([FromBody] CreateAnnouncementDto createAnnouncementDto)
     {
         try
         {
-            await _updateUseCase.ExecuteAsync(id, dto);
-            return NoContent();
+            var result = await _createUseCase.ExecuteAsync(createAnnouncementDto);
+            return CreatedAtAction(nameof(GetAnnouncement), new { id = result.Id }, result);
         }
-        catch (KeyNotFoundException ex)
+        catch (ArgumentException ex)
         {
-            return NotFound(new { message = ex.Message });
+            return BadRequest(ex.Message);
         }
     }
 
-    [HttpDelete("{id:int}")]
-    public async Task<IActionResult> Delete(int id)
+    [HttpPatch("{id}")]
+    [ProducesResponseType(typeof(AnnouncementResponseDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<AnnouncementResponseDto>> UpdateAnnouncement(int id, [FromBody] UpdateAnnouncementDto updateAnnouncementDto)
     {
         try
         {
-            await _deleteUseCase.ExecuteAsync(id);
-            return NoContent();
+            var result = await _updateUseCase.ExecuteAsync(id, updateAnnouncementDto);
+            return Ok(result);
         }
-        catch (KeyNotFoundException ex)
+        catch (KeyNotFoundException)
         {
-            return NotFound(new { message = ex.Message });
+            return NotFound($"Announcement with ID {id} not found");
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(ex.Message);
+        }
+    }
+
+    [HttpDelete("{id}")]
+    [ProducesResponseType(typeof(AnnouncementResponseDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<AnnouncementResponseDto>> DeleteAnnouncement(int id)
+    {
+        try
+        {
+            var result = await _deleteUseCase.ExecuteAsync(id);
+            return Ok(result);
+        }
+        catch (KeyNotFoundException)
+        {
+            return NotFound($"Announcement with ID {id} not found");
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(ex.Message);
         }
     }
 }

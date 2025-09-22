@@ -2,7 +2,7 @@
 
 namespace EmployeeManagement.Domain.Interfaces;
 
-public interface ITaskRepository: IDisposable
+public interface ITaskRepository
 {
     Task<IEnumerable<TaskEntity>> GetAllTaskByUserAsync(int userId);
     Task<TaskEntity?> GetTaskAsync(int id);

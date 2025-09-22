@@ -1,24 +1,30 @@
-﻿using AutoMapper;
-using EmployeeManagement.Application.DTOs.UserWithEmployee;
-using EmployeeManagement.Domain.Interfaces;
-
-namespace EmployeeManagement.Application.UseCases.Users;
+﻿using EmployeeManagement.Application.Interfaces;
 
 public class GetUsersByDepartmentUseCase
 {
     private readonly IUserService _userService;
-    private readonly IMapper _mapper;
 
-    public GetUsersByDepartmentUseCase(IUserService userService, IMapper mapper)
+    public GetUsersByDepartmentUseCase(IUserService userService)
     {
         _userService = userService;
-        _mapper = mapper;
     }
 
-    public async Task<IEnumerable<UserResponseDto>> ExecuteAsync(int departmentId)
+    public async Task<IEnumerable<ResponseUserDto>> ExecuteAsync(int departmentId)
     {
         var users = await _userService.GetUsersByDepartmentAsync(departmentId);
 
-        return _mapper.Map<IEnumerable<UserResponseDto>>(users);
+        return users.Select(u => new ResponseUserDto
+        {
+            Id = u.Id,
+            FirstName = u.FirstName,
+            LastName = u.LastName,
+            Email = u.Email,
+            Role = u.Role,
+            Salary = u.Salary,
+            Position = u.Position,
+            DepartmentId = u.DepartmentId,
+            CreatedAt = u.CreatedAt,
+            UpdatedAt = u.UpdatedAt
+        });
     }
 }

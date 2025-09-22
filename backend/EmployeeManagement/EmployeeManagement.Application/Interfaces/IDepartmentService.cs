@@ -1,6 +1,6 @@
 ﻿using EmployeeManagement.Domain.Entities;
 
-namespace EmployeeManagement.Domain.Interfaces;
+namespace EmployeeManagement.Application.Interfaces;
 
 public interface IDepartmentService
 {

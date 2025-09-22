@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace EmployeeManagement.Infrastructure.Data.Repositories;
 
-public class TaskRepository : ITaskRepository, IDisposable
+public class TaskRepository : ITaskRepository
 {
     private readonly AppDbContext _context;
 
@@ -69,22 +69,5 @@ public class TaskRepository : ITaskRepository, IDisposable
 
         _context.Tasks.Remove(task);
         await _context.SaveChangesAsync();
-    }
-
-    private bool _disposed = false;
-
-    protected virtual void Dispose(bool disposing)
-    {
-        if (!_disposed)
-        {
-            if (disposing) _context.Dispose();
-        }
-        _disposed = true;
-    }
-
-    public void Dispose()
-    {
-        Dispose(true);
-        GC.SuppressFinalize(this);
     }
 }

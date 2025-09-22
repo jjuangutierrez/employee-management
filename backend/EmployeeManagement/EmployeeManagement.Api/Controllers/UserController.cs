@@ -1,7 +1,6 @@
 ﻿using EmployeeManagement.Application.DTOs;
 using EmployeeManagement.Application.DTOs.UserWithEmployee;
 using EmployeeManagement.Application.UseCases.Users;
-using EmployeeManagement.Application.UsesCases.Users;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
@@ -36,14 +35,14 @@ public class UserController : ControllerBase
     }
 
     [HttpPost]
-    public async Task<ActionResult<UserResponseDto>> Create([FromBody] CreateUserDto dto)
+    public async Task<ActionResult<ResponseUserDto>> Create([FromBody] CreateUserDto dto)
     {
         var result = await _createUserUseCase.ExecuteAsync(dto);
-        return Ok(result);
+        return CreatedAtAction(nameof(Get), new { id = result.Id }, result);
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<UserResponseDto>> Get(int id)
+    public async Task<ActionResult<ResponseUserDto>> Get(int id)
     {
         var result = await _getUserUseCase.ExecuteAsync(id);
         if (result == null) return NotFound();
@@ -51,7 +50,7 @@ public class UserController : ControllerBase
     }
 
     [HttpGet]
-    public async Task<ActionResult<IEnumerable<UserResponseDto>>> GetAll()
+    public async Task<ActionResult<IEnumerable<ResponseUserDto>>> GetAll()
     {
         var users = await _getAllUsersUseCase.ExecuteAsync();
 
@@ -61,8 +60,8 @@ public class UserController : ControllerBase
         return Ok(users);
     }
 
-    [HttpGet("department/{id}")]
-    public async Task<ActionResult<IEnumerable<UserResponseDto>>> GetUsersByDepartment(int departmentId)
+    [HttpGet("department/{departmentId}")]
+    public async Task<ActionResult<IEnumerable<ResponseUserDto>>> GetUsersByDepartment(int departmentId)
     {
         var users = await _getUsersByDepartmentUseCase.ExecuteAsync(departmentId);
 
@@ -72,15 +71,17 @@ public class UserController : ControllerBase
         return Ok(users);
     }
 
-    [HttpPut("{id}")]
-    public async Task<ActionResult<UserResponseDto>> Update(int id, [FromBody] UpdateUserDto dto)
+    [HttpPatch("{id}")]
+    public async Task<ActionResult<ResponseUserDto>> Update(int id, [FromBody] UpdateUserDto dto)
     {
         var result = await _updateUserUseCase.ExecuteAsync(id, dto);
+
+        if (result == null) return NotFound();
         return Ok(result);
     }
 
     [HttpDelete("{id}")]
-    public async Task<ActionResult<UserResponseDto>> Delete(int id)
+    public async Task<ActionResult<ResponseUserDto>> Delete(int id)
     {
         var result = await _deleteUserUseCase.ExecuteAsync(id);
         return Ok(result);

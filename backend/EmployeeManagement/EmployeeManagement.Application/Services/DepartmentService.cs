@@ -1,4 +1,5 @@
-﻿using EmployeeManagement.Domain.Entities;
+﻿using EmployeeManagement.Application.Interfaces;
+using EmployeeManagement.Domain.Entities;
 using EmployeeManagement.Domain.Interfaces;
 using System.Threading.Tasks;
 
@@ -25,7 +26,9 @@ public class DepartmentService : IDepartmentService
 
         if (department.Users != null && department.Users.Any())
         {
-            foreach (var user in department.Users)
+            var usersToUpdate = department.Users.ToList();
+
+            foreach (var user in usersToUpdate)
             {
                 user.DepartmentId = null;
                 await _userRepository.UpdateUserAsync(user);
@@ -53,11 +56,10 @@ public class DepartmentService : IDepartmentService
     {
         if (department.ManagerId.HasValue)
         {
-            var manager = await _userRepository.GetUserAsync(department.ManagerId.Value);
+            var manager = await _userRepository.GetUserByIdAsync(department.ManagerId.Value);
             if (manager == null)
                 throw new KeyNotFoundException("Manager not found");
 
-            // REGLA DE NEGOCIO: El manager debe pertenecer al departamento que administra
             
         }
 
@@ -81,12 +83,11 @@ public class DepartmentService : IDepartmentService
         {
             if (existingDepartment.ManagerId.HasValue)
             {
-                var oldManager = await _userRepository.GetUserAsync(existingDepartment.ManagerId.Value);
+                var oldManager = await _userRepository.GetUserByIdAsync(existingDepartment.ManagerId.Value);
                 if (oldManager != null && oldManager.DepartmentId == department.Id)
                 {
-                    // Solo remover si no hay otros empleados 
-                     oldManager.DepartmentId = null;
-                     _userRepository.UpdateUserAsync(oldManager);
+                    oldManager.DepartmentId = null;
+                    await _userRepository.UpdateUserAsync(oldManager);
                 }
             }
 
@@ -101,7 +102,7 @@ public class DepartmentService : IDepartmentService
 
     private async Task AssignManagerToDepartment(int departmentId, int managerId)
     {
-        var manager = await _userRepository.GetUserAsync(managerId);
+        var manager = await _userRepository.GetUserByIdAsync(managerId);
         if (manager == null)
             throw new KeyNotFoundException("Manager not found");
 

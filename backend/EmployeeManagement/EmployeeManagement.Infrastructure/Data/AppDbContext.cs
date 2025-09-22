@@ -16,15 +16,28 @@ public class AppDbContext: DbContext
     {
         base.OnModelCreating(modelBuilder);
 
-
-
-
         // user is only one department
         modelBuilder.Entity<User>()
             .HasOne(u => u.Department)
             .WithMany(d => d.Users)
             .HasForeignKey(u => u.DepartmentId)
-            .OnDelete(DeleteBehavior.Restrict);
+            .OnDelete(DeleteBehavior.SetNull);
+
+        modelBuilder.Entity<User>()
+            .HasOne(u => u.WorkInfo)
+            .WithOne(w => w.User)
+            .HasForeignKey<WorkInfo>(w => w.UserId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        modelBuilder.Entity<WorkInfo>()
+       .HasKey(w => w.Id);
+
+        modelBuilder.Entity<WorkInfo>()
+            .HasOne(w => w.User)
+            .WithOne(u => u.WorkInfo)
+            .HasForeignKey<WorkInfo>(w => w.Id)
+            .OnDelete(DeleteBehavior.Cascade);
+
 
         // depaprment just have one manager
         modelBuilder.Entity<Department>()
@@ -41,7 +54,6 @@ public class AppDbContext: DbContext
                   .HasForeignKey(a => a.CreatedBy)
                   .OnDelete(DeleteBehavior.Restrict);
         });
-
 
         // Convert enums to string
         modelBuilder.Entity<User>()

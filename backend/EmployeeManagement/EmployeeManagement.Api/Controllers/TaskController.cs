@@ -1,5 +1,4 @@
 ﻿using EmployeeManagement.Application.DTOs.Tasks;
-using EmployeeManagement.Application.DTOs.UserWithEmployee;
 using EmployeeManagement.Application.UsesCases.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,53 +14,111 @@ public class TaskController : ControllerBase
     private readonly GetAllTaskByUserUseCase _getAllTaskByUserUseCase;
     private readonly UpdateTaskUseCase _updateTaskUseCase;
 
-    public TaskController(CreateTaskUseCase createTaskUseCase, DeleteTaskUseCase deleteTaskUseCase, GetTaskUseCase getTasUseCase, GetAllTaskByUserUseCase getAllTaskByUserUseCase, UpdateTaskUseCase updateTaskUseCase)
+    public TaskController(
+        CreateTaskUseCase createTaskUseCase,
+        DeleteTaskUseCase deleteTaskUseCase,
+        GetTaskUseCase getTaskUseCase,
+        GetAllTaskByUserUseCase getAllTaskByUserUseCase,
+        UpdateTaskUseCase updateTaskUseCase)
     {
-        _createTaskUseCase = createTaskUseCase;
-        _deleteTaskUseCase = deleteTaskUseCase;
-        _getTaskUseCase = getTasUseCase;
-        _getAllTaskByUserUseCase = getAllTaskByUserUseCase;
-        _updateTaskUseCase = updateTaskUseCase;
+        _createTaskUseCase = createTaskUseCase ?? throw new ArgumentNullException(nameof(createTaskUseCase));
+        _deleteTaskUseCase = deleteTaskUseCase ?? throw new ArgumentNullException(nameof(deleteTaskUseCase));
+        _getTaskUseCase = getTaskUseCase ?? throw new ArgumentNullException(nameof(getTaskUseCase));
+        _getAllTaskByUserUseCase = getAllTaskByUserUseCase ?? throw new ArgumentNullException(nameof(getAllTaskByUserUseCase));
+        _updateTaskUseCase = updateTaskUseCase ?? throw new ArgumentNullException(nameof(updateTaskUseCase));
     }
 
-    [HttpPost]
-    public async Task<ActionResult<TaskResponseDto>> Create(int userId, [FromBody] CreateTaskDto dto)
+    [HttpPost("user/{userId}")]
+    [ProducesResponseType(typeof(TaskResponseDto), StatusCodes.Status201Created)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<ActionResult<TaskResponseDto>> CreateTask(int userId, [FromBody] CreateTaskDto createTaskDto)
     {
-        var result = await _createTaskUseCase.ExecuteAsync(userId, dto);
-        return Ok(result);
+        try
+        {
+            var result = await _createTaskUseCase.ExecuteAsync(userId, createTaskDto);
+            return CreatedAtAction(nameof(GetTask), new { id = result.Id }, result);
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
 
     [HttpGet("{id}")]
-    public async Task<ActionResult<TaskResponseDto>> Get(int id)
+    [ProducesResponseType(typeof(TaskResponseDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<TaskResponseDto>> GetTask(int id)
     {
-        var result = await _getTaskUseCase.ExecuteAsync(id);
-        if (result == null) return NotFound();
-        return Ok(result);
+        try
+        {
+            var result = await _getTaskUseCase.ExecuteAsync(id);
+            return Ok(result);
+        }
+        catch (KeyNotFoundException)
+        {
+            return NotFound($"Task with ID {id} not found");
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
 
     [HttpGet("user/{userId}")]
-    public async Task<ActionResult<TaskResponseDto>> GetTasksByUser(int userId)
+    [ProducesResponseType(typeof(IEnumerable<TaskResponseDto>), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    public async Task<ActionResult<IEnumerable<TaskResponseDto>>> GetTasksByUser(int userId)
     {
-        var result = await _getAllTaskByUserUseCase.ExecuteAsync(userId);
-        if (result == null) return NotFound();
-        return Ok(result);
+        try
+        {
+            var result = await _getAllTaskByUserUseCase.ExecuteAsync(userId);
+            return Ok(result);
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
 
-    [HttpPut("{id}")]
-    public async Task<ActionResult<TaskResponseDto>> Update(int id, [FromBody] UpdateTaskDto dto)
+    [HttpPatch("{id}")]
+    [ProducesResponseType(typeof(TaskResponseDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<TaskResponseDto>> UpdateTask(int id, [FromBody] UpdateTaskDto updateTaskDto)
     {
-        var result = await _updateTaskUseCase.ExecuteAsync(id, dto);
-
-        return Ok(result);
+        try
+        {
+            var result = await _updateTaskUseCase.ExecuteAsync(id, updateTaskDto);
+            return Ok(result);
+        }
+        catch (KeyNotFoundException)
+        {
+            return NotFound($"Task with ID {id} not found");
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
 
     [HttpDelete("{id}")]
-    public async Task<ActionResult<TaskResponseDto>> Delete(int id)
+    [ProducesResponseType(typeof(TaskResponseDto), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<TaskResponseDto>> DeleteTask(int id)
     {
-        var result = await _deleteTaskUseCase.ExecuteAsync(id);
-        if (result == null) return NotFound();
-        
-        return Ok(result);
+        try
+        {
+            var result = await _deleteTaskUseCase.ExecuteAsync(id);
+            return Ok(result);
+        }
+        catch (KeyNotFoundException)
+        {
+            return NotFound($"Task with ID {id} not found");
+        }
+        catch (ArgumentException ex)
+        {
+            return BadRequest(ex.Message);
+        }
     }
-
 }

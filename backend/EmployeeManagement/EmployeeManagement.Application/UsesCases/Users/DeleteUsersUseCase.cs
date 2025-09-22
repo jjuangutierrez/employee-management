@@ -1,28 +1,33 @@
-﻿using AutoMapper;
-using EmployeeManagement.Application.DTOs.UserWithEmployee;
-using EmployeeManagement.Domain.Entities;
-using EmployeeManagement.Domain.Interfaces;
-
-namespace EmployeeManagement.Application.UsesCases.Users;
+﻿using EmployeeManagement.Application.Interfaces;
 
 public class DeleteUsersUseCase
 {
     private readonly IUserService _userService;
-    private readonly IMapper _mapper;
 
-    public DeleteUsersUseCase(IUserService userService, IMapper mapper)
+    public DeleteUsersUseCase(IUserService userService)
     {
         _userService = userService;
-        _mapper = mapper;
     }
 
-     public async Task<UserResponseDto> ExecuteAsync(int userId)
+    public async Task<ResponseUserDto> ExecuteAsync(int userId)
     {
         if (userId <= 0)
             throw new ArgumentException("User ID must be greater than zero", nameof(userId));
 
         var deletedUser = await _userService.DeleteUserAsync(userId);
 
-        return _mapper.Map<UserResponseDto>(deletedUser);
+        return new ResponseUserDto
+        {
+            Id = deletedUser.Id,
+            FirstName = deletedUser.FirstName,
+            LastName = deletedUser.LastName,
+            Email = deletedUser.Email,
+            Role = deletedUser.Role,
+            Salary = deletedUser.Salary,
+            Position = deletedUser.Position,
+            DepartmentId = deletedUser.DepartmentId,
+            CreatedAt = deletedUser.CreatedAt,
+            UpdatedAt = deletedUser.UpdatedAt
+        };
     }
 }

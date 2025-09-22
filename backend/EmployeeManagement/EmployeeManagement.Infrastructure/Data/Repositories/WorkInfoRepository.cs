@@ -55,9 +55,7 @@ public class WorkInfoRepository : IWorkInfoRepository, IDisposable
         existingEmployee.HireDate = workInfo.HireDate;
         existingEmployee.Phone = workInfo.Phone;
         existingEmployee.AlternatePhone = workInfo.AlternatePhone;
-        existingEmployee.Salary = workInfo.Salary;
-        existingEmployee.Position = workInfo.Position;
-        existingEmployee.UpdateAt = DateTime.UtcNow;
+        existingEmployee.UpdatedAt = DateTime.UtcNow;
 
         await _context.SaveChangesAsync();
     }

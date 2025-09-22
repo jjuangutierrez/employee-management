@@ -1,21 +1,16 @@
 ﻿using AutoMapper;
 using EmployeeManagement.Application.DTOs.Tasks;
-using EmployeeManagement.Application.DTOs.UserWithEmployee;
-using EmployeeManagement.Domain.Entities;
-using EmployeeManagement.Domain.Interfaces;
-using EmployeeManagement.Domain.Services;
+using EmployeeManagement.Application.Interfaces;
 
 namespace EmployeeManagement.Application.UsesCases.Tasks;
 
 public class GetTaskUseCase
 {
     private readonly ITaskService _taskService;
-    private readonly IMapper _mapper;
 
-    public GetTaskUseCase(ITaskService taskService, IMapper mapper)
+    public GetTaskUseCase(ITaskService taskService)
     {
-        _taskService = taskService;
-        _mapper = mapper;
+        _taskService = taskService ?? throw new ArgumentNullException(nameof(taskService));
     }
 
     public async Task<TaskResponseDto> ExecuteAsync(int taskId)
@@ -23,8 +18,20 @@ public class GetTaskUseCase
         if (taskId <= 0)
             throw new ArgumentException("Task ID must be greater than zero", nameof(taskId));
 
-        var user = await _taskService.GetTaskAsync(taskId);
+        var task = await _taskService.GetTaskAsync(taskId);
 
-        return _mapper.Map<TaskResponseDto>(user);
+        return new TaskResponseDto
+        {
+            Id = task.Id,
+            Name = task.Name,
+            Description = task.Description,
+            Status = task.Status,
+            CreateAt = task.CreateAt,
+            UpdateAt = task.UpdateAt,
+            UserId = task.UserId,
+            UserName = task.User != null
+                ? $"{task.User.FirstName} {task.User.LastName}".Trim()
+                : string.Empty
+        };
     }
 }

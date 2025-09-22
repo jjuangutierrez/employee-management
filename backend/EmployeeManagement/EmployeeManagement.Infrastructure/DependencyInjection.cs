@@ -6,9 +6,8 @@ using EmployeeManagement.Application.UseCases.Announcement;
 using EmployeeManagement.Application.UseCases.Users;
 using EmployeeManagement.Application.UsesCases.Departments;
 using EmployeeManagement.Application.UsesCases.Tasks;
-using EmployeeManagement.Application.UsesCases.Users;
 using EmployeeManagement.Domain.Interfaces;
-using EmployeeManagement.Domain.Services;
+using EmployeeManagement.Application.Services;
 using EmployeeManagement.Infrastructure.Data;
 using EmployeeManagement.Infrastructure.Data.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -69,7 +68,7 @@ public static class DependencyInjection
         services.AddScoped<DeleteDepartmentUseCase>();
         services.AddScoped<GetDepartmentUseCase>();
         services.AddScoped<GetAllDepartmentsUseCase>();
-        services.AddScoped<UpdateDepartmentsUseCase>();
+        services.AddScoped<UpdateDepartmentUseCase>();
 
         // Announcements
         services.AddScoped<CreateAnnouncementUseCase>();

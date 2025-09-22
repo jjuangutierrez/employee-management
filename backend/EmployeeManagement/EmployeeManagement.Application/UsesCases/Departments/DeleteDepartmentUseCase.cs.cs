@@ -1,29 +1,66 @@
 ﻿using AutoMapper;
 using EmployeeManagement.Application.DTOs.Departments;
-using EmployeeManagement.Application.DTOs.Tasks;
-using EmployeeManagement.Application.Services;
-using EmployeeManagement.Domain.Interfaces;
+using EmployeeManagement.Application.Interfaces;
+using EmployeeManagement.Domain.Entities;
 
 namespace EmployeeManagement.Application.UsesCases.Departments;
 
+
 public class DeleteDepartmentUseCase
 {
-    private readonly IDepartmentService _departmentsService;
-    private readonly IMapper _mapper;
+    private readonly IDepartmentService _departmentService;
 
-    public DeleteDepartmentUseCase(IDepartmentService departmentsService, IMapper mapper)
+    public DeleteDepartmentUseCase(IDepartmentService departmentService)
     {
-        _departmentsService = departmentsService;
-        _mapper = mapper;
+        _departmentService = departmentService;
     }
 
     public async Task<DepartmentResponseDto> ExecuteAsync(int departmentId)
     {
         if (departmentId <= 0)
-            throw new ArgumentException("department ID must be greater than zero", nameof(departmentId));
+            throw new ArgumentException("Department ID must be greater than zero", nameof(departmentId));
 
-        var deletedTask = await _departmentsService.DeleteDepartmentAsync(departmentId);
+        var deletedDepartment = await _departmentService.DeleteDepartmentAsync(departmentId);
 
-        return _mapper.Map<DepartmentResponseDto>(deletedTask);
+        return MapToResponseDto(deletedDepartment);
+    }
+
+    private static DepartmentResponseDto MapToResponseDto(Department department)
+    {
+        return new DepartmentResponseDto
+        {
+            Id = department.Id,
+            Name = department.Name,
+            Description = department.Description,
+            ManagerId = department.ManagerId,
+            CreatedAt = department.CreatedAt,
+            UpdatedAt = department.UpdatedAt,
+            Manager = department.Manager != null ? new ResponseUserDto
+            {
+                Id = department.Manager.Id,
+                FirstName = department.Manager.FirstName,
+                LastName = department.Manager.LastName,
+                Email = department.Manager.Email,
+                Role = department.Manager.Role,
+                Salary = department.Manager.Salary,
+                Position = department.Manager.Position,
+                DepartmentId = department.Manager.DepartmentId,
+                CreatedAt = department.Manager.CreatedAt,
+                UpdatedAt = department.Manager.UpdatedAt
+            } : null,
+            Users = department.Users?.Select(u => new ResponseUserDto
+            {
+                Id = u.Id,
+                FirstName = u.FirstName,
+                LastName = u.LastName,
+                Email = u.Email,
+                Role = u.Role,
+                Salary = u.Salary,
+                Position = u.Position,
+                DepartmentId = u.DepartmentId,
+                CreatedAt = u.CreatedAt,
+                UpdatedAt = u.UpdatedAt
+            }).ToList() ?? new List<ResponseUserDto>()
+        };
     }
 }

@@ -10,10 +10,12 @@ public class User
     public string Email { get; set; }
     public string Password { get; set; }
     public Role Role { get; set; }
+    public long Salary { get; set; }
+    public string Position { get; set; }
     public DateTime CreatedAt { get; set; }
-    public DateTime UpdateAt { get; set; }
+    public DateTime UpdatedAt { get; set; }
 
-    public int? DepartmentId { get; set; }
+    public int? DepartmentId { get; set; } = null;
     public Department? Department { get; set; }
 
     // 1:N
